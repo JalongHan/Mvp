@@ -28,6 +28,14 @@ package com.jielonghan.mvp;
 
 public interface LoginView {
 
+    void showProgress();
 
+    void hideProgress();
+
+    void setUesrnameError();
+
+    void setPasswordError();
+
+    void navigateToHome();
 
 }
